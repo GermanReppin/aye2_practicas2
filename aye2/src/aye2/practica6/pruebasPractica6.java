@@ -20,8 +20,13 @@ public class pruebasPractica6 {
 		System.out.println("La hora h1 es: " + h1.toString());
 		
 		System.out.println("La suma de h1 y h2 es; " + Hora.sumar(h1, h2)); // es igual que hacer: System.out.println("La suma de h1 y h2 es; " + h1);
+		h1.sumar(h2);
+		System.out.println("La suma de h1 y h2 es: " + h1);
 		
 		
+		//Ejercicio 7: Empleado
+		Empleado emp = new Empleado(1, "Pepe");
+		emp,verDatos();
 	}
 
 }
