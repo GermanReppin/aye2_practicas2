@@ -6,7 +6,7 @@ public class pruebasPractica6 {
 		
 		Lamparita lamp1 = new Lamparita();
 		
-		System.out.printIn("La lamparita esta " + lamp1.getEstado().toString());
+		System.out.println("La lamparita esta " + lamp1.getEstado().toString());
         
 		lamp1.encender();
 		
